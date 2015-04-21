@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #333;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+	background-size: cover;
+}
+
+#lbg {
+	opacity: 0.17;
+}
+
+.layer {
+	opacity: 0;
+	/*-o-transition: opacity 1s ease-in-out, background 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out, background 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out, background 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out, background 1s ease-in-out;*/
+	transition: opacity 1s ease-in-out, background 1s ease-in-out;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border-top: 10px solid #ffb718;
+	display: block;
+	width: 100%;
+	padding-bottom: 10px;
+	background-color: #000;
+}
+
+#years {
+	/*width: 100%;*/
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #000;
+
+}
+
+#years > li{
+	display: inline;
+	margin: none;
+	padding: none;
+}
+
+#years > li > a{
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0 20px;
+	background-color: #000;
+	color: #FFB718;
+	fill: #FFB718;
+	/*-o-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;*/
+	transition: color 0.2s ease-in-out, fill 0.2s ease-in-out, background 0.2s ease-in-out;
+	text-decoration: none;
+}
+
+#years > li > a:hover{
+	background-color: #281D03;
+}
+
+#years > li > a.yearAcc{
+	background-color: #FFB718;
+	color: #000;
+	fill: #000;
+}
+
+#years img, #years svg{
+	width: 75px;
+	height: 35px;
+	display: inline-block;
+}
+
+#apetyt {
+	width: 134px;
+	height: 57px;
+	background-color: #fff;
+	display: block;
+	position: fixed;
+	bottom: 57px;
+	right: 0px;
+	float: right;
+}
+
+#loader {
+	display: block;
+	width: 172px;
+	height: 170px;
+	margin: 300px auto;
+}
+
+
