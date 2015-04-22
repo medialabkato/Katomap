@@ -11,8 +11,10 @@ $(document).ready(function() {
         },
         'xml')
     .done(function() {
-            $( "#years" ).slideDown( 500, function() {
-                // $("#years").css("display", "block");
+            // $("#years").css("opacity", "1");
+            $("#navi").slideDown(500, function() {
+                // $("#years").css("display", "flex");
+                resizeContent();
             });
 
             $("#b1865").click(function() {
