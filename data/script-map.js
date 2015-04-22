@@ -12,7 +12,7 @@ $(document).ready(function() {
         'xml')
     .done(function() {
             // $("#years").css("opacity", "1");
-            $("#navi > div").slideDown(500, function() {
+            $("#navi > div").slideDown(300, function() {
                 // $("#years").css("display", "flex");
                 resizeContent();
             });
