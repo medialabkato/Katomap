@@ -12,7 +12,7 @@ $(document).ready(function() {
         'xml')
     .done(function() {
             // $("#years").css("opacity", "1");
-            $("#navi").slideDown(500, function() {
+            $("#navi > div").slideDown(500, function() {
                 // $("#years").css("display", "flex");
                 resizeContent();
             });
@@ -76,6 +76,6 @@ $(document).ready(function() {
 });
 
 function resizeContent() {
-    $height = $("#years").height();
+    $height = $("#navi").height();
     $("#mapc").css("margin-top", $height);
 }
