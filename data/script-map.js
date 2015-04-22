@@ -55,6 +55,12 @@ $(document).ready(function() {
                 return false;
             });
 
+
+            resizeContent();
+            $(window).resize(function() {
+                resizeContent();
+            });
+
             // alert("done");
 
           })
@@ -67,3 +73,7 @@ $(document).ready(function() {
 
 });
 
+function resizeContent() {
+    $height = $("#years").height();
+    $("#mapc").css("margin-top", $height);
+}

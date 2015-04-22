@@ -44,8 +44,16 @@ nav {
 }
 
 #years {
-	width: 800px;
-	display: none;
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
 	margin: 0 auto;
 	padding: 0;
 	background-color: #000;
@@ -83,7 +91,7 @@ nav {
 	fill: #000;
 }
 
-#years img, #years svg{
+#years img, #years svg {
 	width: 75px;
 	height: 35px;
 	display: inline-block;
