@@ -95,10 +95,34 @@ body {
 	fill: #000;
 }
 
-#years img, #years svg {
-	width: 75px;
-	height: 35px;
-	display: inline-block;
+
+@media all and (min-width: 480px) {
+
+	#years img, #years svg {
+		width: 75px;
+		height: 35px;
+		display: inline-block;
+	}
+
+	#years > li > a{
+		padding: 10px 15px;
+		margin: 0 20px;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+	#years img, #years svg {
+		width: 30px;
+		height: 14px;
+		display: inline-block;
+	}
+
+	#years > li > a{
+		padding: 8px 12px;
+		margin: 0 15px;
+	}
 }
 
 #apetyt {
