@@ -96,7 +96,7 @@ body {
 }
 
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 725px) {
 
 	#years img, #years svg {
 		width: 75px;
@@ -109,9 +109,13 @@ body {
 		margin: 0 20px;
 	}
 
+	#apetyt {
+		display: block;
+	}
+
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 725px) {
 
 	#years img, #years svg {
 		width: 30px;
@@ -123,13 +127,16 @@ body {
 		padding: 8px 12px;
 		margin: 0 15px;
 	}
+
+	#apetyt {
+		display: none;
+	}
 }
 
 #apetyt {
 	width: 134px;
 	height: 57px;
 	background-color: #fff;
-	display: block;
 	position: fixed;
 	bottom: 57px;
 	right: 0px;
